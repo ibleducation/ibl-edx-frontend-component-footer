@@ -1,5 +1,5 @@
 {
-  "name": "@ibl/frontend-component-footer",
+  "name": "@edx/frontend-component-footer",
   "version": "1.0.0-semantically-released",
   "description": "Footer component for use when building Open edX frontend applications",
   "main": "dist/index.js",
@@ -12,12 +12,10 @@
     "lint": "fedx-scripts eslint --ext .js --ext .jsx .",
     "snapshot": "fedx-scripts jest --updateSnapshot",
     "start": "fedx-scripts webpack-dev-server --progress",
-    "test": "fedx-scripts jest --coverage",
-    "preinstall": "npm i && npm run build"
+    "test": "fedx-scripts jest --coverage"
   },
   "files": [
-    "/dist",
-    "Makefile"
+    "/dist"
   ],
   "husky": {
     "hooks": {
@@ -65,5 +63,8 @@
     "prop-types": "^15.5.10",
     "react": "^16.9.0 || ^17.0.0",
     "react-dom": "^16.9.0 || ^17.0.0"
+  },
+  "directories": {
+    "example": "example"
   }
 }
