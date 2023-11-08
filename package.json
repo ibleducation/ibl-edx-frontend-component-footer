@@ -16,7 +16,8 @@
     "preinstall": "npm run build"
   },
   "files": [
-    "/dist"
+    "/dist",
+    "Makefile"
   ],
   "husky": {
     "hooks": {
