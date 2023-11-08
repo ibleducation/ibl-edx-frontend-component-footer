@@ -56,7 +56,7 @@ var SiteFooter = /*#__PURE__*/function (_React$Component) {
       var config = this.context.config;
       return /*#__PURE__*/React.createElement("footer", {
         role: "contentinfo",
-        className: "footer d-flex border-top py-3 px-4",
+        className: "footer border-top py-3 px-4",
         style: {
           display: 'none'
         }
