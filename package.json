@@ -13,7 +13,7 @@
     "snapshot": "fedx-scripts jest --updateSnapshot",
     "start": "fedx-scripts webpack-dev-server --progress",
     "test": "fedx-scripts jest --coverage",
-    "preinstall": "[ ! -f .buildme ] || npm run build"
+    "preinstall": "npm run build"
   },
   "files": [
     "/dist"
